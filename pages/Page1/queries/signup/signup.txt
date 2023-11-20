@@ -1,0 +1,5 @@
+INSERT INTO users(email, password) VALUES 
+(
+	'{{this.params.email}}',
+  '{{this.params.pHash}}'
+	)
